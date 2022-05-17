@@ -10,22 +10,22 @@ The script must be run in Windows Powershell
 The syntax of the command is: .\remoteshutdown.ps1 <command option> <csv file name>
 
 ## Command Options:
-*s:  Shutdown the computers.
-*sg: Shutdown the computers. On the next boot, if Automatic Restart Sign-On
-    is enabled, automatically sign in and lock last interactive user.
-    After sign in, restart any registered applications.
-*r:  Full shutdown and restart the computers.
-*g:  Full shutdown and restart the computer. After the system is rebooted,
-    if Automatic Restart Sign-On is enabled, automatically sign in and
-    lock last interactive user.
-    After sign in, restart any registered applications.
-*a:  Abort a system shutdown.
-    This can only be used during the time-out period.
-    Combine with /fw to clear any pending boots to firmware.
-*p:  Turn off the local computers with no time-out or warning.
-*h:  Hibernate the computers
-*hybrid: Performs a shutdown of the computer and prepares it for fast startup.
-    Must be used with /s option.
+s:  Shutdown the computers.\
+sg: Shutdown the computers. On the next boot, if Automatic Restart Sign-On\
+    is enabled, automatically sign in and lock last interactive user.\
+    After sign in, restart any registered applications.\
+r:  Full shutdown and restart the computers.\
+g:  Full shutdown and restart the computer. After the system is rebooted,\
+    if Automatic Restart Sign-On is enabled, automatically sign in and\
+    lock last interactive user.\
+    After sign in, restart any registered applications.\
+a:  Abort a system shutdown.\
+    This can only be used during the time-out period.\
+    Combine with /fw to clear any pending boots to firmware.\
+p:  Turn off the local computers with no time-out or warning.\
+h:  Hibernate the computers\
+hybrid: Performs a shutdown of the computer and prepares it for fast startup.\
+    Must be used with /s option.\
 **ANY OTHER ARGUMENTS ARE NOT GUARANTEED TO WORK**
 
 ## csv file specifications:
