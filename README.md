@@ -7,7 +7,7 @@ the devices listed in the file.
 ## How to run:
 The script must be run in Windows Powershell
 
-The syntax of the command is: .\remoteshutdown.ps1 <command option> <csv file name>
+The syntax of the command is: .\remoteshutdown.ps1 command option csv file name
 
 ## Command Options:
 s:  Shutdown the computers.\
